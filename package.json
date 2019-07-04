@@ -1,0 +1,20 @@
+{
+  "name": "deploy-offline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "pkg . --out-path dist --target node10-win-x64",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "app": "./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
